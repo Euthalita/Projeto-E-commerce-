@@ -1,0 +1,33 @@
+
+div{
+    position:fixed;
+    top: 0;            /* Alinha ao topo */
+    left: 0;           /* Alinha à esquerda */
+    padding: 20px;
+   margin-top: 13px;
+}
+
+h4 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    margin-bottom: 10px; /* Espaçamento inferior */
+  }
+  
+  input[type="text"] {
+    padding: 4px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 4px; /* Bordas arredondadas */
+    width: 100%; /* Ocupa 100% do contêiner */
+    max-width: 300px; /* Largura máxima */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.384)
+  }
+  
+  h3.produtos {
+    font-size: 1.2rem; /* Tamanho da fonte */
+    color: #ff0000; /* Cor do texto para indicar erro ou alerta */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 20px; /* Espaçamento superior */
+  }
+  

@@ -1,0 +1,10 @@
+<div>
+<h4>{{mensagem}}</h4>
+
+<label for="busca">Busca:    </label>
+<input type="text" id="busca" [(ngModel)]="filtro"><br>
+
+<h3 class="produtos" *ngIf="lista.length <= 0">
+  Não foram encontrados produtos em sua pesquisa
+</h3>
+</div>

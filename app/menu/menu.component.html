@@ -1,0 +1,31 @@
+<header>
+  <div class="top-bar">
+      <div class="logo">
+          <h1>Mistic</h1>
+      </div>
+      <div class="top-links">
+          <a routerLink="/login">Login</a>
+          <a routerLink="/cliente">Cadastro</a>
+          <a routerLink="/carrinho">Carrinho</a>
+          <div class="search-container">
+              <input type="text" class="search-bar" placeholder="Buscar...">
+              <a routerLink="/busca" class="search-link">Buscar</a>
+          </div>
+      </div>
+  </div>
+  <nav>
+      <ul class="menu" [class.active]="isMenuOpen">
+          <li><a routerLink="./vitrine">Início</a></li>
+          <li><a routerLink="./vitrine-incenso">Incensos</a></li>
+          <li><a routerLink="/vitrine-tarot">Baralhos</a></li>
+          <li><a routerLink="/vitrine-pedras">Pedras</a></li>
+          <li><a routerLink="/vitrine-cha">Chás</a></li>
+      </ul>
+      <div class="hamburger" (click)="toggleMenu()">
+          &#9776;
+      </div>
+  </nav>
+</header>
+
+
+  
