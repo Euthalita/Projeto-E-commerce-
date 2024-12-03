@@ -1,0 +1,16 @@
+<div class="cadastro-container">
+    <h1>Meu Cadastro</h1>
+    Nome: <input type="text" [(ngModel)]="obj.nome"><br>
+    E-mail: <input type="email" [(ngModel)]="obj.email"><br>
+    Documento: <input type="text" [(ngModel)]="obj.documento"><br>
+    Telefone: <input type="text" [(ngModel)]="obj.telefone"><br>
+    Logradouro: <input type="text" [(ngModel)]="obj.logradouro"><br>
+    CEP: <input type="text" [(ngModel)]="obj.cep"><br>
+    Cidade: <input type="text" [(ngModel)]="obj.cidade"><br>
+    Complemento: <input type="text" [(ngModel)]="obj.complemento"><br>
+    Senha: <input type="password" [(ngModel)]="obj.senha"><br>
+    <button (click)="gravar()">Gravar</button>
+    <button (click)="alterar()">Alterar Cadastro</button>
+
+    <b>{{mensagem}}</b><br>
+</div>
